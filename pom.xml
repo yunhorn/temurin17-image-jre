@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.github.yunhorn</groupId>
+<!--    <groupId>com.smartoilets</groupId>-->
+    <artifactId>temurin17-image-jre</artifactId>
+    <version>17.0.10_7</version>
+
+    <!--    <artifactId>temurin21-image-jre</artifactId>-->
+    <!--    <version>21.0.2_13</version>-->
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>alisnapshot</id>
+            <name>alisnapshot</name>
+            <url>https://packages.aliyun.com/maven/repository/2127020-snapshot-G5gKXW</url>
+        </repository>
+    </distributionManagement>
+
+</project>
